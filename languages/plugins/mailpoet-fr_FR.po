@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-07 10:57:40+0000\n"
+"PO-Revision-Date: 2023-11-14 10:35:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8,6 +8,32 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: fr\n"
 "Project-Id-Version: MailPoet - MailPoet\n"
+
+#. translators: %s is the email subject, which will always be in English
+#: lib/Util/Notices/PendingApprovalNotice.php:54
+msgid "You can use all MailPoet features and send [link1]email previews[/link1] to your [link2]authorized email addresses[/link2], but sending to your email list contacts is temporarily paused until we review your subscription. If you don't hear from us within 48 hours, please check the inbox and spam folders of your MailPoet account email for follow-up emails with the subject \"%s\" and reply, or [link3]contact us[/link3]."
+msgstr ""
+
+#: lib/Util/Notices/PendingApprovalNotice.php:40
+msgid "MailPoet is [link]reviewing your subscription[/link]."
+msgstr ""
+
+#: lib/Automation/Integrations/WooCommerce/Triggers/Orders/OrderCreatedTrigger.php:35
+msgid "Order created"
+msgstr "Commande créée"
+
+#: lib/Automation/Integrations/WooCommerce/Triggers/Orders/OrderCompletedTrigger.php:16
+msgid "Order completed"
+msgstr ""
+
+#: lib/Automation/Integrations/WooCommerce/Triggers/Orders/OrderCancelledTrigger.php:16
+msgid "Order cancelled"
+msgstr ""
+
+#: views/subscribers/importExport/import.html:116
+msgctxt "Text in button"
+msgid "I cleaned my list"
+msgstr ""
 
 #: lib/Automation/Integrations/WordPress/Subjects/PostSubject.php:35
 msgid "WordPress post"
@@ -253,27 +279,27 @@ msgstr "1 étoile"
 msgid "any"
 msgstr "tout"
 
-#: views/layout.html:126
+#: views/layout.html:127
 msgid "Act now to ensure seamless service to your growing audience."
 msgstr "Agissez dès maintenant pour garantir un service sans faille à votre audience toujours plus nombreuse."
 
-#: views/layout.html:125
+#: views/layout.html:126
 msgid "To continue using MailPoet without interruption, it’s time to upgrade your plan."
 msgstr "Pour continuer à utiliser MailPoet sans interruption, il est temps de mettre à jour votre offre."
 
-#: views/layout.html:122
+#: views/layout.html:123
 msgid "Congratulations, you now have more subscribers than your plan’s limit!"
 msgstr "Félicitations, vous avez maintenant plus d’abonnements que la limite de votre offre !"
 
-#: views/layout.html:121
+#: views/layout.html:122
 msgid "Congratulations on reaching over [subscribersLimit] subscribers!"
 msgstr "Félicitations pour avoir dépassé les [subscribersLimit] abonnements !"
 
-#: views/layout.html:120
+#: views/layout.html:121
 msgid "Action required: Upgrade your plan!"
 msgstr "Action nécessaire : Mettez votre offre à jour !"
 
-#: views/layout.html:119
+#: views/layout.html:120
 msgid "Action required: Upgrade your plan for more than [subscribersLimit] subscribers!"
 msgstr "Action nécessaire : Mettez à niveau votre offre pour plus de [subscribersLimit] abonnements !"
 
@@ -600,7 +626,7 @@ msgstr "Méthode d’envoi actuelle"
 
 #. translators: %1$s is email volume limit and %2$s the date when you can
 #. resume sending.
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:199
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:205
 msgid "You have sent more emails this month than your MailPoet plan includes (%1$s), and sending has been temporarily paused. To continue sending with MailPoet Sending Service please [link]upgrade your plan[/link], or wait until sending is automatically resumed on %2$s."
 msgstr "Vous avez envoyé plus d’e-mails ce mois-ci que votre plan MailPoet ne le prévoit (%1$s), et l’envoi a été temporairement interrompu. Pour continuer à envoyer avec le service d’envoi de MailPoet, veuillez [link]mettre à niveau votre offre[/link], ou attendez que l’envoi reprenne automatiquement le %2$s."
 
@@ -751,15 +777,15 @@ msgstr "ne commence pas avec"
 msgid "Segment \"%1$s\" has been duplicated."
 msgstr "Le segment « %1$s » a été dupliqué."
 
-#: views/layout.html:136
+#: views/layout.html:137
 msgid "Refresh monthly email limit"
 msgstr "Actualiser la limite mensuelle d’e-mails"
 
-#: views/layout.html:134
+#: views/layout.html:135
 msgid "You have sent more emails this month than your MailPoet plan includes, and sending has been temporarily paused."
 msgstr "Vous avez envoyé plus d’e-mails ce mois-ci que ne le prévoit votre offre MailPoet, et l’envoi a été temporairement interrompu."
 
-#: views/layout.html:132
+#: views/layout.html:133
 msgid "Congratulations, you sent a lot of emails this month!"
 msgstr "Félicitations, vous avez envoyé beaucoup d’e-mails ce mois-ci !"
 
@@ -931,11 +957,11 @@ msgctxt "Subscriber engagement score"
 msgid "engagement score"
 msgstr "score d’engagement"
 
-#: views/layout.html:129
+#: views/layout.html:130
 msgid "Refresh subscriber limit"
 msgstr "Actualiser la limite d’abonnements"
 
-#: views/layout.html:127
+#: views/layout.html:128
 msgid "Alternatively, [link]check how to manage your subscribers[/link] to keep your numbers below your plan’s limit."
 msgstr "Sinon, [link]vérifiez comment gérer vos abonnements[/link] pour les maintenir en dessous de la limite de votre offre."
 
@@ -943,7 +969,7 @@ msgstr "Sinon, [link]vérifiez comment gérer vos abonnements[/link] pour les ma
 msgid "Couldn't find the coupon. Please update the email if the coupon was removed."
 msgstr "Le code promo n’a pas été trouvé. Veuillez mettre à jour l’e-mail si le code promo a été supprimé."
 
-#: lib/Automation/Integrations/WooCommerce/Triggers/OrderStatusChangedTrigger.php:40
+#: lib/Automation/Integrations/WooCommerce/Triggers/Orders/OrderStatusChangedTrigger.php:40
 msgid "Order status changed"
 msgstr "État de la commande modifié"
 
@@ -995,7 +1021,7 @@ msgstr "L‘extension MailPoet nécessite la version %s ou plus récente de WooC
 msgid "minute(s)"
 msgstr "minute(s)"
 
-#: lib/API/MP/v1/Subscribers.php:244
+#: lib/API/MP/v1/Subscribers.php:243
 msgid "This subscriber is already unsubscribed."
 msgstr "Cet abonné est déjà désabonné."
 
@@ -1075,10 +1101,6 @@ msgstr "Créer un e-mail : Types de campagnes"
 msgid "Learn more about email marketing"
 msgstr "En savoir plus sur le marketing par e-mail"
 
-#: lib/Util/Notices/PendingApprovalNotice.php:40
-msgid "<b>Your subscription is currently [link1]pending approval[/link1]</b>, which means you can only send [link2]email previews[/link2] to your [link3]authorized emails[/link3] at the moment. Please check your mailbox or [link4]contact us[/link4] if you haven’t heard from our team about your subscription status in the past 48 hours."
-msgstr "<b>Votre abonnement est actuellement [link1]en attente d’approbation[/link1]</b>, ce qui signifie que vous pouvez uniquement envoyer des [link2]aperçus d’e-mails[/link2] à vos [link3]e-mails autorisés[/link3] pour le moment. Veuillez vérifier votre boîte de réception ou [link4]nous contacter[/link4] si vous n’avez pas reçu de nouvelles de notre équipe concernant l’état de votre abonnement au cours des dernières 48 heures."
-
 #: lib/Mailer/Methods/SMTP.php:85
 msgid "Filter \"mailpoet_mailer_smtp_instance\" must return an instance of PHPMailer."
 msgstr "Le filtre « mailpoet_mailer_smtp_instance » doit retourner une instance de PHPMailer."
@@ -1114,10 +1136,6 @@ msgstr "Commencez par configurer un formulaire d’abonnement."
 #: views/homepage.html:81
 msgid "Changes to your audience will appear here."
 msgstr "Les modifications apportées à votre audience apparaîtront ici."
-
-#: views/homepage.html:63
-msgid "new"
-msgstr "nouveau"
 
 #: views/homepage.html:62
 msgid "Changes in the last 30 days"
@@ -1163,7 +1181,7 @@ msgstr "Les réglages du formulaire « %1$s » sont corrompus. Veuillez [link]
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: views/newsletter/templates/components/newsletterPreview.hbs:63
+#: views/newsletter/templates/components/newsletterPreview.hbs:66
 msgid "If you have already received approval email, click [link]here[/link] to update the status."
 msgstr "Si vous avez déjà reçu un e-mail d’approbation, cliquez [link]ici[/link] pour mettre à jour l’état."
 
@@ -2047,11 +2065,11 @@ msgstr "Plusieurs objets avec la clé « %1$s » ont été trouvés pour l‘e
 msgid "Subject data for subject with key '%1$s' not found for automation run with ID '%2$d'."
 msgstr "Les données du sujet avec la clé « %1$s » n’ont pas été trouvées pour l‘exécution de l‘automatisation avec l’ID « %2$d »."
 
-#: views/subscribers/importExport/import.html:127
+#: views/subscribers/importExport/import.html:128
 msgid "Pick a tag or create a new one to assign to these subscribers."
 msgstr "Choisissez une étiquette ou créez-en une nouvelle pour l’attribuer à ces abonnés."
 
-#: views/subscribers/importExport/import.html:126
+#: views/subscribers/importExport/import.html:127
 msgid "Assign tags"
 msgstr "Assigner des étiquettes"
 
@@ -2059,17 +2077,17 @@ msgstr "Assigner des étiquettes"
 msgid "Root step"
 msgstr "Étape racine"
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:174
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:180
 msgid "[link1]Click here to start the authentication[/link1]."
 msgstr "[link1]Cliquez ici pour démarrer l’authentification[/link1]."
 
 #. translators: %d is the ID of the segment
-#: lib/API/MP/v1/Subscribers.php:425
+#: lib/API/MP/v1/Subscribers.php:421
 msgid "Can't unsubscribe from a list with ID %d."
 msgstr "Impossible de se désabonner de la liste avec l’ID %d."
 
 #. translators: %s is an error message
-#: lib/API/MP/v1/Subscribers.php:153
+#: lib/API/MP/v1/Subscribers.php:152
 msgid "Failed to save subscriber custom fields: %s"
 msgstr "Échec de l’enregistrement des champs personnalisés de l’abonné : %s"
 
@@ -2162,42 +2180,42 @@ msgid "Invalid status: %s"
 msgstr "État non valide : %s"
 
 #. translators: %s is the error message
-#: lib/API/MP/v1/Subscribers.php:340
+#: lib/API/MP/v1/Subscribers.php:336
 msgid "Subscriber added to lists, but confirmation email failed to send: %s"
 msgstr "L’abonné a été ajouté aux listes, mais l’e-mail de confirmation n’a pas été envoyé : %s"
 
-#. translators: %s is a comma-separated list of errors
-#: lib/API/MP/v1/Subscribers.php:323
+#. translators: %s is an error message
+#: lib/API/MP/v1/Subscribers.php:321
 msgid "Subscriber added, but welcome email failed to send: %s"
 msgstr "L’abonné a été ajouté, mais l’envoi de l’e-mail de bienvenue a échoué : %s"
 
 #. translators: %s is the error message
-#: lib/API/MP/v1/Subscribers.php:200
+#: lib/API/MP/v1/Subscribers.php:199
 msgid "Failed to save a status of a subscriber : %s"
 msgstr "Échec de l’enregistrement de l’état de l‘abonné : %s"
 
 #. translators: %d is the ID of the segment
-#: lib/API/MP/v1/Subscribers.php:422
+#: lib/API/MP/v1/Subscribers.php:418
 msgid "Can't subscribe to a list with ID %d."
 msgstr "Impossible de s’abonner à la liste avec l’ID %d."
 
 #. translators: %d is the ID of the segment
-#: lib/API/MP/v1/Subscribers.php:412
+#: lib/API/MP/v1/Subscribers.php:408
 msgid "Can't subscribe to a WooCommerce Customers list with ID %d."
 msgstr "Impossible de s’abonner à la liste de clients ou clientes WooCommerce avec l’ID %d."
 
 #. translators: %d is the ID of the segment
-#: lib/API/MP/v1/Subscribers.php:402
+#: lib/API/MP/v1/Subscribers.php:398
 msgid "Can't subscribe to a WordPress Users list with ID %d."
 msgstr "Impossible de s’abonner à la liste de comptes WordPress avec l’ID %d."
 
 #. translators: %d is the ID of the segment
-#: lib/API/MP/v1/Subscribers.php:415
+#: lib/API/MP/v1/Subscribers.php:411
 msgid "Can't unsubscribe from a WooCommerce Customers list with ID %d."
 msgstr "Impossible de se désabonner de la liste de clients ou clientes WooCommerce avec l’ID %d."
 
 #. translators: %d is the ID of the segment
-#: lib/API/MP/v1/Subscribers.php:405
+#: lib/API/MP/v1/Subscribers.php:401
 msgid "Can't unsubscribe from a WordPress Users list with ID %d."
 msgstr "Impossible de se désabonner de la liste de compte WordPress avec l’ID %d."
 
@@ -2255,7 +2273,7 @@ msgid "All Tags"
 msgstr "Toutes les étiquettes"
 
 #. translators: %s is an error message.
-#: lib/API/MP/v1/Subscribers.php:143
+#: lib/API/MP/v1/Subscribers.php:142
 msgid "Failed to add subscriber: %s"
 msgstr "Échec de l’ajout de l‘abonné : %s"
 
@@ -2272,7 +2290,7 @@ msgctxt "Subscriber tag"
 msgid "tag"
 msgstr "étiquette"
 
-#: views/subscribers/importExport/import.html:128
+#: views/subscribers/importExport/import.html:129
 #: views/subscribers/subscribers.html:149
 msgid "Add new tag"
 msgstr "Ajouter une nouvelle étiquette"
@@ -2320,10 +2338,6 @@ msgstr "Gérer les automatisations"
 #: lib/API/JSON/v1/Subscribers.php:225
 msgid "Sign-up confirmation is disabled in your [link]MailPoet settings[/link]. Please enable it to resend confirmation emails or update your subscriber’s status manually."
 msgstr "La confirmation d’inscription est désactivée dans vos [link]réglages MailPoet[/link]. Veuillez l’activer pour renvoyer des e-mails de confirmation ou mettre à jour manuellement l’état de votre abonné/abonnée."
-
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:224
-msgid "Your subscription is currently [link]pending approval[/link]. You’ll soon be able to send once our team reviews your account. In the meantime, you can send previews to your authorized emails."
-msgstr "Votre abonnement est actuellement [link]en attente d’approbation[/link]. Vous pourrez bientôt envoyer dès que notre équipe aura examiné votre compte. En attendant, vous pouvez envoyer des aperçus pour vos e-mails autorisés."
 
 #. translators: %1$s is the current parameter and %2$s a comma-separated list
 #. of the allowed types.
@@ -2584,15 +2598,15 @@ msgctxt "This text resides in the Upgrade page: /wp-admin/admin.php?page=mailpoe
 msgid "Take your email marketing strategy<br> to the next level"
 msgstr "Passez votre stratégie de marketing par e-mail<br>au niveau supérieur"
 
-#: views/layout.html:135
+#: views/layout.html:136
 msgid "To continue sending with MailPoet Sending Service please [link]upgrade your plan[/link], or wait until sending is automatically resumed on <b>[date]</b>."
 msgstr "Pour continuer à envoyer avec le service d’envoi MailPoet, veuillez [link]mettre à niveau votre offre[/link], ou attendre la reprise automatique des envois le <b>[date]</b>."
 
-#: views/layout.html:133
+#: views/layout.html:134
 msgid "You have sent more emails this month than your MailPoet plan includes ([emailVolumeLimit]), and sending has been temporarily paused."
 msgstr "Vous avez envoyé plus d’e-mails ce mois-ci que ce que votre offre MailPoet inclut ([emailVolumeLimit]), et l’envoi a été temporairement interrompu."
 
-#: views/layout.html:131
+#: views/layout.html:132
 msgid "Congratulations, you sent more than [emailVolumeLimit] emails this month!"
 msgstr "Félicitations, vous avez envoyé plus de [emailVolumeLimit] e-mails ce mois-ci !"
 
@@ -2617,7 +2631,7 @@ msgid "Show form every"
 msgstr "Afficher les formulaires tou(te)s les"
 
 #. translators: %1$s the date when you can resume sending.
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:206
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:212
 msgid "You have sent more emails this month than your MailPoet plan includes, and sending has been temporarily paused. To continue sending with MailPoet Sending Service please [link]upgrade your plan[/link], or wait until sending is automatically resumed on %1$s."
 msgstr "Vous avez envoyé plus d’e-mails ce mois-ci que ce que votre offre MailPoet ne le prévoit, et l’envoi a été temporairement interrompu. Pour continuer à envoyer avec le service d’envoi MailPoet, veuillez [link]mettre à jour votre offre[/link], ou attendez que l’envoi reprenne automatiquement le %1$s."
 
@@ -2726,7 +2740,7 @@ msgstr "Rechercher des e-mails"
 msgid "Your current MailPoet plan does not support advanced segments. Please [link]upgrade to a MailPoet Premium plan[/link] to reactivate this segment."
 msgstr "Votre offre actuelle MailPoet ne prend pas en charge les segments avancés. Veuillez [link]mettre à niveau vers une offre Premium MailPoet[/link] pour réactiver ce segment."
 
-#: lib/API/MP/v1/Subscribers.php:361
+#: lib/API/MP/v1/Subscribers.php:357
 msgid "A subscriber is required."
 msgstr "Un abonné est nécessaire."
 
@@ -2910,7 +2924,7 @@ msgstr "Comment puis-je nettoyer ma liste ?"
 msgid "Activate MailPoet Premium plugin"
 msgstr "Activer l’extension MailPoet Premium"
 
-#: views/layout.html:115
+#: views/layout.html:116
 msgid "Failed to resume sending because the email address is unauthorized. Please authorize it and try again."
 msgstr "La reprise de l’envoi a échoué car l'adresse e-mail n’est pas autorisée. Veuillez l’autoriser et réessayer."
 
@@ -2948,11 +2962,11 @@ msgstr "Ouvert par machine"
 msgid "Due to email privacy protections, some opens may not be tracked. Consider using a different engagement metric."
 msgstr "En raison de la protection de la confidentialité des e-mails, certaines ouvertures peuvent ne pas faire l’objet d’un suivi. Envisagez d’utiliser une autre mesure d'engagement."
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:150
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:156
 msgid "MailPoet Sending Service has been temporarily suspended for your site due to [link1]degraded email deliverability[/link1]. Please [link2]contact our support team[/link2] to resolve the issue."
 msgstr "Le service d'envoi MailPoet a été temporairement suspendu pour votre site en raison d’une [link1]dégradation de la délivrabilité des e-mails[/link1]. Veuillez [link2]contacter notre équipe de support[/link2] pour résoudre ce problème."
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:126
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:132
 msgid "You have reached the subscriber limit of your plan. Please [link1]upgrade your plan[/link1], or [link2]contact our support team[/link2] if you have any questions."
 msgstr "Vous avez atteint la limite d’abonné•es de votre offre. Veuillez [link1]mettre votre offre à niveau[/link1], ou [link2]contactez notre équipe de support[/link2] si vous avez des questions."
 
@@ -2982,7 +2996,7 @@ msgid_plural "List cannot be deleted because it’s used for %1$s forms"
 msgstr[0] "La liste ne peut pas être supprimée car elle est utilisée pour le formulaire %1$s"
 msgstr[1] "La liste ne peut pas être supprimée car elle est utilisée pour les formulaires %1$s"
 
-#: views/layout.html:152
+#: views/layout.html:153
 msgid "Your [link]API key[/link] to send with MailPoet is invalid."
 msgstr "Votre [link]clé d’API[/link] pour envoyer avec MailPoet n’est pas valide !"
 
@@ -3032,12 +3046,12 @@ msgctxt "This is an action on the subscribers page"
 msgid "Unsubscribe"
 msgstr "Se désabonner"
 
-#: views/subscribers/importExport/import.html:120
+#: views/subscribers/importExport/import.html:121
 msgctxt "This is a value in a select box for \"Set new subscribers’ status to\""
 msgid "Don’t update"
 msgstr "Ne pas mettre à jour"
 
-#: views/subscribers/importExport/import.html:116
+#: views/subscribers/importExport/import.html:117
 msgctxt "Text in a link"
 msgid "Got it, I’ll proceed to import"
 msgstr "J’ai compris, je vais lancer l’importation"
@@ -3307,12 +3321,12 @@ msgctxt "This text resides in the Upgrade page: /wp-admin/admin.php?page=mailpoe
 msgid "Upgrade"
 msgstr "Mettre à niveau"
 
-#: views/layout.html:158
+#: views/layout.html:159
 msgctxt "Button, after clicking it we will enable transactional emails"
 msgid "Enable"
 msgstr "Activer"
 
-#: views/layout.html:157
+#: views/layout.html:158
 msgctxt "This is a link that leads to more information about transactional emails"
 msgid "Read more."
 msgstr "Lire la suite."
@@ -3434,12 +3448,12 @@ msgctxt "date from"
 msgid "From"
 msgstr "De "
 
-#: views/layout.html:144
+#: views/layout.html:145
 msgctxt "Review our plugin on WordPress.org."
 msgid "Rate us now"
 msgstr "Nous noter maintenant"
 
-#: views/layout.html:140
+#: views/layout.html:141
 msgctxt "After a user gives us positive feedback via the NPS poll, we ask them to review our plugin on WordPress.org."
 msgid "Thank you! Time to tell the world?"
 msgstr "Merci ! Il est temps de le dire au monde ?"
@@ -4869,23 +4883,23 @@ msgstr "Aucun abonnement n’a été trouvé."
 msgid "Loading subscribers..."
 msgstr "Chargement des abonnements…"
 
-#: views/subscribers/importExport/import.html:125
+#: views/subscribers/importExport/import.html:126
 msgid "Update existing subscribers’ status to"
 msgstr "Mettre à jour l’état des abonnés existants en"
 
-#: views/subscribers/importExport/import.html:124
+#: views/subscribers/importExport/import.html:125
 msgid "Are you importing subscribers from another marketing service provider? You may need to separately import the list of bad or previously unsubscribed addresses to avoid contacting them. [link]See how to import a suppression list.[/link]"
 msgstr "Vous importez des abonné⋅es d’un autre fournisseur de services de marketing ? Vous devrez peut-être importer séparément la liste des mauvaises adresses ou des adresses précédemment désabonnées pour éviter de les contacter. [link]Voir comment importer une liste de suppression.[/link]"
 
-#: views/subscribers/importExport/import.html:123
+#: views/subscribers/importExport/import.html:124
 msgid "Congratulations, you’ve imported your subscribers!"
 msgstr "Félicitations, vous avez importé vos abonné⋅es !"
 
-#: views/subscribers/importExport/import.html:122
+#: views/subscribers/importExport/import.html:123
 msgid "Choose “Subscribed” only if you have explicit consent to send them bulk or marketing emails. [link]Why is consent important?[/link]"
 msgstr "Choisissez « Abonné⋅e » uniquement si vous avez le consentement explicite d’envoyer des e-mails groupés ou commerciaux. [link]Pourquoi le consentement est-il important ?[/link]"
 
-#: views/subscribers/importExport/import.html:121
+#: views/subscribers/importExport/import.html:122
 msgid "Set new subscribers’ status to"
 msgstr "Régler l’état des nouveaux abonnements sur"
 
@@ -6077,15 +6091,15 @@ msgstr "Image de pic-vert"
 msgid "Image bird feeder"
 msgstr "Image mangeoire à oiseaux"
 
-#: views/layout.html:110
+#: views/layout.html:111
 msgid "[link]Update MailPoet[/link] to see the latest changes"
 msgstr "[link]Mettre à jour MailPoet[/link] pour voir les dernières modifications"
 
-#: views/layout.html:156
+#: views/layout.html:157
 msgid "All of your WordPress and WooCommerce emails are sent with your hosting company, unless you have an SMTP plugin. Would you like such emails to be delivered with MailPoet’s active sending method for better deliverability?"
 msgstr "Tous vos e-mails WordPress et WooCommerce sont envoyés avec votre hébergeur, sauf si vous disposez d’une extension SMTP. Souhaitez-vous que ces e-mails soient envoyés avec la méthode d’envoi active de MailPoet pour une meilleure délivrabilité ?"
 
-#: views/layout.html:155
+#: views/layout.html:156
 msgid "Good news! MailPoet can now send your website’s emails too"
 msgstr "Bonne nouvelle ! MailPoet peut aussi désormais envoyer les e-mails de votre site web"
 
@@ -6108,12 +6122,12 @@ msgid "Good stuff."
 msgstr "Bien joué."
 
 #: views/homepage.html:74 views/segments/translations.html:220
-#: views/subscribers/subscribers.html:139 lib/Twig/Functions.php:305
+#: views/subscribers/subscribers.html:139 lib/Twig/Functions.php:332
 msgid "Good"
 msgstr "Bon"
 
 #: views/homepage.html:71 views/segments/translations.html:217
-#: views/subscribers/subscribers.html:136 lib/Twig/Functions.php:303
+#: views/subscribers/subscribers.html:136 lib/Twig/Functions.php:330
 msgid "Excellent"
 msgstr "Excellent"
 
@@ -6210,10 +6224,6 @@ msgstr "L’utilisation de ce modèle d'e-mail pour vos e-mails WooCommerce n'es
 #: views/newsletter/templates/components/save.hbs:55
 msgid "Autosaved"
 msgstr "Auto-enregistré"
-
-#: views/newsletter/templates/components/newsletterPreview.hbs:61
-msgid "You’ll soon be able to send once our team reviews your account. In the meantime, you can send previews to [link]your authorized emails[/link]."
-msgstr "Vous pourrez bientôt envoyer dès que notre équipe aura examiné votre compte. En attendant, vous pouvez envoyer des aperçus pour [link]vos e-mails autorisés[/link]."
 
 #: views/newsletter/templates/components/newsletterPreview.hbs:53
 msgid "Didn’t receive the test email? Read our [link]quick guide[/link] to sending issues."
@@ -7118,13 +7128,13 @@ msgstr "Message"
 msgid "Logs"
 msgstr "Journaux"
 
-#: views/layout.html:143
+#: views/layout.html:144
 msgid "You’ve been using MailPoet for [months] month now, and we would love to read your own review."
 msgid_plural "You’ve been using MailPoet for [months] months now, and we would love to read your own review."
 msgstr[0] "Vous avez utilisé MailPoet pendant [month] maintenant, et nous aimerions liste votre propre évaluation."
 msgstr[1] "Vous utilisez MailPoet depuis [month] maintenant, et nous aimerions lire votre propre évaluation."
 
-#: views/layout.html:142
+#: views/layout.html:143
 msgid "You’ve been using MailPoet for [days] day now, and we would love to read your own review."
 msgid_plural "You’ve been using MailPoet for [days] days now, and we would love to read your own review."
 msgstr[0] "Vous avez utilisé MailPoet pendant [days] maintenant, et nous aimerions liste votre propre évaluation."
@@ -7213,37 +7223,37 @@ msgstr "Cette valeur ne semble pas être valide."
 msgid "Close"
 msgstr "Fermer"
 
-#: views/layout.html:145
+#: views/layout.html:146
 msgid "Not now"
 msgstr "Pas maintenant"
 
-#: views/layout.html:141
+#: views/layout.html:142
 msgid "[username], did you know that hundreds of WordPress users read the reviews on the plugin repository? They’re also a source of inspiration for our team."
 msgstr "[username], saviez vous que des centaines d’utilisateurs de WordPress lisent les évaluations sur le répertoire de l’extension ? Elles sont aussi une source d’inspiration pour notre équipe."
 
-#: views/layout.html:128 views/subscribers/subscribers.html:124
+#: views/layout.html:129 views/subscribers/subscribers.html:124
 msgid "Upgrade Now"
 msgstr "Mettre à niveau maintenant"
 
-#: views/layout.html:124
+#: views/layout.html:125
 msgid "Your plan is limited to [subscribersLimit] subscribers."
 msgstr "Votre offre est limitée à [subscribersLimit] abonnements."
 
-#: views/layout.html:123
+#: views/layout.html:124
 msgid "Our free version is limited to [subscribersLimit] subscribers."
 msgstr "Notre version gratuite est limitée à [subscribersLimit] abonnements."
 
-#: views/layout.html:116
+#: views/layout.html:117
 msgid "Dismiss this notice."
 msgstr "Ignorer cette notification."
 
-#: views/layout.html:112
+#: views/layout.html:113
 msgid "An error has happened while performing a request, the server request has timed out after %d seconds"
 msgstr "Une erreur s'est produite lors de l’exécution d'une requête, la requête du serveur a expiré après %d secondes."
 
 #. translators: %d is the error code.
 #. translators: %d will be replaced by an error code
-#: views/layout.html:111 lib/Services/Bridge/API.php:230
+#: views/layout.html:112 lib/Services/Bridge/API.php:230
 #: lib/Services/Bridge/API.php:287 lib/Services/Bridge/API.php:333
 msgid "An error has happened while performing a request, the server has responded with response code %d"
 msgstr "Une erreur est survenue lors du traitement de la demande, le serveur a retourné le code de réponse %d"
@@ -8103,20 +8113,20 @@ msgid "Congrats! You’re progressing well so far. Complete your upgrade thanks 
 msgstr "Félicitations ! Vous progressez bien jusqu’ici. Terminez votre mise à niveau grâce à cette [link]liste de vérifications[/link]."
 
 #. translators: %1$d is the amount of hours.
-#: views/settings_translations.html:213 lib/Twig/Functions.php:207
+#: views/settings_translations.html:213 lib/Twig/Functions.php:234
 msgid "every %1$d hours"
 msgstr "toutes les %1$d heures"
 
-#: views/settings_translations.html:212 lib/Twig/Functions.php:205
+#: views/settings_translations.html:212 lib/Twig/Functions.php:232
 msgid "every hour"
 msgstr "toutes les heures"
 
 #. translators: %1$d is the amount of minutes.
-#: views/settings_translations.html:211 lib/Twig/Functions.php:204
+#: views/settings_translations.html:211 lib/Twig/Functions.php:231
 msgid "every %1$d minutes"
 msgstr "toutes les %1$d minutes"
 
-#: views/settings_translations.html:210 lib/Twig/Functions.php:202
+#: views/settings_translations.html:210 lib/Twig/Functions.php:229
 msgid "every minute"
 msgstr "toutes les minutes"
 
@@ -8268,7 +8278,7 @@ msgid "Bounced"
 msgstr "Retourné·e"
 
 #: views/segments/translations.html:18
-#: views/subscribers/importExport/import.html:119
+#: views/subscribers/importExport/import.html:120
 #: views/subscribers/subscribers.html:58
 #: lib/Automation/Integrations/MailPoet/Fields/SubscriberFieldsFactory.php:124
 #: lib/Subscribers/SubscriberListingRepository.php:248
@@ -8277,7 +8287,7 @@ msgid "Inactive"
 msgstr "Inactif"
 
 #: views/segments/translations.html:17
-#: views/subscribers/importExport/import.html:118
+#: views/subscribers/importExport/import.html:119
 #: views/subscribers/subscribers.html:57
 #: lib/Automation/Integrations/MailPoet/Fields/SubscriberFieldsFactory.php:120
 #: lib/Subscribers/SubscriberListingRepository.php:243
@@ -8292,7 +8302,7 @@ msgid "Unconfirmed"
 msgstr "Non confirmé·e"
 
 #: views/segments/translations.html:15
-#: views/subscribers/importExport/import.html:117
+#: views/subscribers/importExport/import.html:118
 #: views/subscribers/subscribers.html:56
 #: lib/Automation/Integrations/MailPoet/Fields/SubscriberFieldsFactory.php:112
 #: lib/Subscribers/SubscriberListingRepository.php:233
@@ -8666,7 +8676,7 @@ msgstr "Désactivé"
 msgid "Active"
 msgstr "Activé"
 
-#: views/layout.html:147
+#: views/layout.html:148
 #: lib/Newsletter/Listing/NewsletterListingRepository.php:132
 #: lib/Newsletter/Listing/NewsletterListingRepository.php:147
 #: lib/Newsletter/Sending/ScheduledTaskSubscribersListingRepository.php:53
@@ -8754,31 +8764,31 @@ msgstr "Un autre enregistrement existe déjà. Veuillez spécifier un « %1$s 
 msgid "Please specify a type."
 msgstr "Veuillez spécifier un type."
 
-#: views/layout.html:167 lib/Util/Notices/UnauthorizedEmailNotice.php:78
+#: views/layout.html:168 lib/Util/Notices/UnauthorizedEmailNotice.php:78
 msgid "Resume sending"
 msgstr "Reprendre l’envoi"
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:118
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:124
 msgid "Unknown address"
 msgstr "Adresse inconnue"
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:103
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:109
 msgid "Invalid MSS response format."
 msgstr "Format de réponse MMS non valide."
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:85
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:91
 msgid "Email service is temporarily not available, please try again in a few minutes."
 msgstr "Le service d’e-mail  n’est pas disponible, veuillez réessayer dans quelques minutes."
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:65
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:71
 msgid "Error while sending."
 msgstr "Erreur durant l’envoi."
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:61
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:67
 msgid "JSON input is not an array"
 msgstr "L’entrée JSON n’est pas un tableau"
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:48
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:54
 msgid "MailPoet API key is invalid!"
 msgstr "Votre clé MailPoet n’est pas valide !"
 
@@ -9140,7 +9150,7 @@ msgstr "[link1]Enregistrez[/link1] votre copie de l’extension MailPoet Premium
 msgid "Your newsletters are awesome! Don't forget to [link]upgrade your MailPoet email plan[/link] by %s to keep sending them to your subscribers."
 msgstr "Vos newsletters sont formidables ! N’oubliez pas de [link]mettre à jour votre plan d’e-mail MailPoet[/link] par %s pour continuer à les envoyer à vos abonné·es."
 
-#: views/layout.html:153 lib/Config/ServicesChecker.php:51
+#: views/layout.html:154 lib/Config/ServicesChecker.php:51
 msgid "Purchase a key"
 msgstr "Acheter une clé"
 
@@ -9148,7 +9158,7 @@ msgstr "Acheter une clé"
 msgid "Your key to send with MailPoet is invalid."
 msgstr "Votre clé pour envoyer avec MailPoet n’est pas valide !"
 
-#: views/layout.html:151 lib/Config/ServicesChecker.php:45
+#: views/layout.html:152 lib/Config/ServicesChecker.php:45
 msgid "All sending is currently paused!"
 msgstr "Tous les envois sont actuellement suspendus !"
 
@@ -10679,22 +10689,22 @@ msgstr "Cette liste existe déjà."
 msgid "List name is required."
 msgstr "Le nom de liste est nécessaire."
 
-#: lib/API/MP/v1/Subscribers.php:121
+#: lib/API/MP/v1/Subscribers.php:120
 msgid "This subscriber already exists."
 msgstr "Cet abonnement existe déjà."
 
-#: lib/API/MP/v1/Subscribers.php:113
+#: lib/API/MP/v1/Subscribers.php:112
 msgid "Subscriber email address is required."
 msgstr "L’adresse de messagerie de l’abonné·e est nécessaire."
 
 #. translators: %s is the count of lists
-#: lib/API/MP/v1/Subscribers.php:437
+#: lib/API/MP/v1/Subscribers.php:433
 msgid "List with ID %s does not exist."
 msgid_plural "Lists with IDs %s do not exist."
 msgstr[0] "La liste avec l’ID %s n’existe pas."
 msgstr[1] "Les listes avec les IDs %s n’existent pas."
 
-#: lib/API/MP/v1/Subscribers.php:351
+#: lib/API/MP/v1/Subscribers.php:347
 msgid "At least one segment ID is required."
 msgstr "Au moins un ID de segment est nécessaire."
 
@@ -10747,7 +10757,7 @@ msgstr "Veuillez saisir votre adresse e-mail."
 #: lib/API/JSON/v1/Subscribers.php:96 lib/API/JSON/v1/Subscribers.php:190
 #: lib/API/JSON/v1/Subscribers.php:206 lib/API/JSON/v1/Subscribers.php:218
 #: lib/API/JSON/v1/Subscribers.php:248 lib/API/JSON/v1/SubscriberStats.php:45
-#: lib/API/MP/v1/Subscribers.php:378
+#: lib/API/MP/v1/Subscribers.php:374
 msgid "This subscriber does not exist."
 msgstr "Cet abonnement n’existe pas."
 
@@ -10795,8 +10805,8 @@ msgid "Error validating Premium key, please try again later (%s)"
 msgstr "Erreur de validation de la clé Premium, veuillez réessayer plus tard (%s)."
 
 #: lib/API/JSON/v1/Services.php:212
-msgid "Your Premium key is already used on another site"
-msgstr "Votre clé Premium est déjà utilisée sur un autre site"
+msgid "Your Premium key is already <a>used on another site</a>"
+msgstr ""
 
 #. translators: %s is the expiration date.
 #: lib/API/JSON/v1/Services.php:191
@@ -10817,8 +10827,8 @@ msgid "Error validating MailPoet Sending Service key, please try again later (%s
 msgstr "Erreur de validation de votre clé de service d’envoi MailPoet, veuillez réessayer plus tard (%s)."
 
 #: lib/API/JSON/v1/Services.php:143
-msgid "Your MailPoet Sending Service key is already used on another site"
-msgstr "Votre clé pour le service d’envoi MailPoet est déjà utilisée sur un autre site"
+msgid "Your MailPoet Sending Service key is already <a>used on another site</a>"
+msgstr ""
 
 #. translators: %s is the expiration date.
 #: lib/API/JSON/v1/Services.php:125
@@ -10873,7 +10883,7 @@ msgstr "Cette liste ne peut pas être déplacée dans la corbeille."
 
 #: lib/API/JSON/v1/Segments.php:105 lib/API/JSON/v1/Segments.php:169
 #: lib/API/JSON/v1/Segments.php:179 lib/API/JSON/v1/Segments.php:243
-#: lib/API/JSON/v1/Segments.php:265 lib/API/MP/v1/Subscribers.php:392
+#: lib/API/JSON/v1/Segments.php:265 lib/API/MP/v1/Subscribers.php:388
 msgid "This list does not exist."
 msgid_plural "These lists do not exist."
 msgstr[0] "Cette liste n’existe pas."
